@@ -12,6 +12,12 @@ public class ArticuloAcomprar
 		cantidad=0;
 		unidad="";
 	}
+	public ArticuloAcomprar(String des, int can, String und)
+	{
+		descripcion = des;
+		cantidad = can;
+		unidad = und;
+	}
 
 	public String getDescripcion()
 	{
